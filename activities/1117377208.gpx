@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx creator="StravaGPX Android" version="1.1" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+ <metadata>
+  <time>2017-08-04T16:26:27Z</time>
+ </metadata>
+ <trk>
+  <name>Evening Ride</name>
+  <type>1</type>
+  <trkseg>
+   <trkpt lat="30.0115560" lon="31.2264250">
+    <ele>23.6</ele>
+    <time>2017-08-04T16:26:27Z</time>
+   </trkpt>
+   <trkpt lat="30.0115820" lon="31.2264150">
+    <ele>23.6</ele>
+    <time>2017-08-04T16:26:35Z</time>
+   </trkpt>
+   <trkpt lat="30.0916070" lon="31.3345930">
+    <ele>63.9</ele>
+    <time>2017-08-04T17:34:47Z</time>
+   </trkpt>
+   <trkpt lat="30.0916580" lon="31.3345370">
+    <ele>63.6</ele>
+    <time>2017-08-04T17:34:48Z</time>
+   </trkpt>
+   <trkpt lat="30.0916600" lon="31.3345800">
+    <ele>62.4</ele>
+    <time>2017-08-04T17:34:50Z</time>
+   </trkpt>
+   <trkpt lat="30.0916750" lon="31.3347000">
+    <ele>60.2</ele>
+    <time>2017-08-04T17:34:52Z</time>
+   </trkpt>
+   <trkpt lat="30.0916710" lon="31.3346550">
+    <ele>59.9</ele>
+    <time>2017-08-04T17:34:55Z</time>
+   </trkpt>
+   <trkpt lat="30.0917510" lon="31.3346810">
+    <ele>59.8</ele>
+    <time>2017-08-04T17:38:19Z</time>
+   </trkpt>
+   <trkpt lat="30.0917780" lon="31.3347090">
+    <ele>58.8</ele>
+    <time>2017-08-04T17:38:21Z</time>
+   </trkpt>
+   <trkpt lat="30.0917920" lon="31.3346590">
+    <ele>58.6</ele>
+    <time>2017-08-04T17:38:25Z</time>
+   </trkpt>
+   <trkpt lat="30.1106690" lon="31.3699810">
+    <ele>58.0</ele>
+    <time>2017-08-04T18:29:08Z</time>
+   </trkpt>
+   <trkpt lat="30.1106340" lon="31.3699930">
+    <ele>58.0</ele>
+    <time>2017-08-04T18:29:09Z</time>
+   </trkpt>
+   <trkpt lat="30.1106150" lon="31.3700530">
+    <ele>58.0</ele>
+    <time>2017-08-04T18:29:10Z</time>
+   </trkpt>
+   <trkpt lat="30.1107400" lon="31.3701920">
+    <ele>58.8</ele>
+    <time>2017-08-04T18:29:12Z</time>
+   </trkpt>
+   <trkpt lat="30.0914930" lon="31.3347570">
+    <ele>55.4</ele>
+    <time>2017-08-04T18:52:54Z</time>
+   </trkpt>
+   <trkpt lat="30.0916980" lon="31.3344010">
+    <ele>61.7</ele>
+    <time>2017-08-04T18:52:56Z</time>
+   </trkpt>
+   <trkpt lat="30.0916900" lon="31.3344320">
+    <ele>62.1</ele>
+    <time>2017-08-04T18:53:00Z</time>
+   </trkpt>
+   <trkpt lat="30.0916600" lon="31.3344380">
+    <ele>62.4</ele>
+    <time>2017-08-04T18:53:02Z</time>
+   </trkpt>
+   <trkpt lat="30.0916300" lon="31.3344370">
+    <ele>62.8</ele>
+    <time>2017-08-04T18:53:05Z</time>
+   </trkpt>
+   <trkpt lat="30.0916680" lon="31.3345840">
+    <ele>63.7</ele>
+    <time>2017-08-04T18:54:18Z</time>
+   </trkpt>
+   <trkpt lat="30.0826920" lon="31.3191940">
+    <ele>37.2</ele>
+    <time>2017-08-04T19:12:22Z</time>
+   </trkpt>
+   <trkpt lat="30.0821190" lon="31.3180230">
+    <ele>40.7</ele>
+    <time>2017-08-04T19:13:56Z</time>
+   </trkpt>
+   <trkpt lat="30.0820180" lon="31.3182010">
+    <ele>40.7</ele>
+    <time>2017-08-04T19:13:58Z</time>
+   </trkpt>
+   <trkpt lat="30.0492680" lon="31.2302640">
+    <ele>14.4</ele>
+    <time>2017-08-04T19:43:34Z</time>
+   </trkpt>
+   <trkpt lat="30.0493380" lon="31.2301660">
+    <ele>16.3</ele>
+    <time>2017-08-04T19:43:35Z</time>
+   </trkpt>
+   <trkpt lat="30.0493530" lon="31.2302110">
+    <ele>18.2</ele>
+    <time>2017-08-04T19:43:37Z</time>
+   </trkpt>
+   <trkpt lat="30.0493820" lon="31.2301070">
+    <ele>20.1</ele>
+    <time>2017-08-04T19:43:39Z</time>
+   </trkpt>
+   <trkpt lat="30.0493740" lon="31.2301370">
+    <ele>22.0</ele>
+    <time>2017-08-04T19:43:47Z</time>
+   </trkpt>
+   <trkpt lat="30.0111900" lon="31.2262890">
+    <ele>29.7</ele>
+    <time>2017-08-04T20:28:41Z</time>
+   </trkpt>
+   <trkpt lat="30.0114810" lon="31.2262490">
+    <ele>30.4</ele>
+    <time>2017-08-04T20:28:43Z</time>
+   </trkpt>
+   <trkpt lat="30.0114430" lon="31.2261440">
+    <ele>30.6</ele>
+    <time>2017-08-04T20:28:44Z</time>
+   </trkpt>
+  </trkseg>
+ </trk>
+</gpx>

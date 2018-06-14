@@ -1,0 +1,14 @@
+type,activity,goal,start_date,end_date,segment_id,period,interval_time
+distance,Ride,0,2017-12-25 00:00:00,,,week
+distance,Ride,1000000,2017-01-01 00:00:00,,,year
+distance,Ride,1000000,2018-01-01 00:00:00,,,week
+distance,Run,200000,2018-01-01 00:00:00,,,week
+distance,Ride,300000,2018-01-08 00:00:00,,,week
+distance,Run,0,2018-01-08 00:00:00,,,week
+distance,Run,500000,2018-01-01 00:00:00,,,year
+distance,Run,15000,2018-02-19 00:00:00,,,week
+distance,Run,25000,2018-03-05 00:00:00,,,week
+distance,Ride,300000,2018-04-16 00:00:00,,,week
+distance,Ride,2000000,2018-01-01 00:00:00,,,year
+distance,Run,25000,2018-05-14 00:00:00,,,week
+distance,Ride,0,2018-05-28 00:00:00,,,week

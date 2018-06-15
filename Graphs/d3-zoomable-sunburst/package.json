@@ -1,0 +1,9 @@
+{
+  "name": "d3-zoomable-sunburst",
+  "main": "d3-zoomable-sunburst.js",
+  "version": "407.0.0",
+  "author": {
+    "name": "Ahmed Aldahshoury",
+    "url": "https://beta.observablehq.com/@ahmedaldahshoury"
+  }
+}

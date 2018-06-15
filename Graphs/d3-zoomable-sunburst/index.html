@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<title>Strava activities relative to activities (Ride/Run) duration time</title>
+<link rel="stylesheet" type="text/css" href="https://unpkg.com/@observablehq/notebook-inspector@1/dist/notebook-inspector-style.css">
+
+<div class="bubbleChart"/>
+<body>
+<script type="module">
+
+import {Inspector, Runtime} from "https://unpkg.com/@observablehq/notebook-runtime@1?module";
+import notebook from "./d3-zoomable-sunburst.js";
+
+
+Runtime.load(notebook, Inspector.into(document.body));
+
+</script>
+<script type="module">
+
+import {Inspector, Runtime} from "https://unpkg.com/@observablehq/notebook-runtime@1?module";
+import notebook from "./transitions-from-maps-to-diagrams-part-1.js";
+
+Runtime.load(notebook, Inspector.into(document.body));
+
+</script>

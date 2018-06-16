@@ -7182,6 +7182,19 @@ const monthNames = [
 ];
 
 let newArr = {};
+
+var maxDistanceRide = 0;
+var maxDistanceRideID;
+var maxDistanceRun = 0;
+var maxDistanceRunID;
+var totalDistance = 0;
+var totalElev = 0;
+var PRs = 0;
+var Runs = 0;
+var Rides = 0;
+var totalActivites = 0;
+var totalTime = 0;
+
 for (obj of arr) {
     let date = new Date(obj["start_date"]);
     let year = date.getFullYear().toString();
@@ -7197,11 +7210,24 @@ for (obj of arr) {
     if (!newArr[year][month][day]) {
         newArr[year][month][day] = obj;
     }
+
+    if(obj["type"].toString()=="Ride" ){ // total Rides
+          Rides++;
+        }
+
+    if(obj["type"].toString()=="Run" ){ // total Runs
+          Runs++;
+        }
+
+    totalTime = totalTime + obj["moving_time"];// total time in mins
 }
+
+    totalActivites = Rides+Runs;
 
 let otherObj = { name: "years", children: [] };
 
 for (item in newArr) {
+
     otherObj.children.push({ name: item, children: [] });
     for (innerItem in newArr[item]) {
         otherObj.children[otherObj.children.length - 1].children.push({
@@ -7216,7 +7242,6 @@ for (item in newArr) {
             for (innerGrandInnerItem in newArr[item][innerItem][
                 grandInnerItem
             ]) {
-
 
               if(innerGrandInnerItem == "distance"){
                 otherObj.children[otherObj.children.length - 1].children[
@@ -7235,6 +7260,9 @@ for (item in newArr) {
                             "moving_time"
                         ])/(3600*3)
                 });
+                totalDistance = totalDistance +(newArr[item][innerItem][grandInnerItem]["distance"]); // calculating total distance
+                totalElev = totalElev +(newArr[item][innerItem][grandInnerItem]["total_elevation_gain"]); // calculating total distance
+                PRs = PRs +(newArr[item][innerItem][grandInnerItem]["pr_count"]); // calculating total distance
               //  console.log(innerGrandInnerItem);
               }
               if(innerGrandInnerItem == "moving_time"){
@@ -7276,10 +7304,32 @@ for (item in newArr) {
               //  console.log(innerGrandInnerItem);
               }
 
+
+              // longest Ride
+              if((newArr[item][innerItem][grandInnerItem]["distance"])>maxDistanceRide && (newArr[item][innerItem][grandInnerItem]["type"]).toString()=="Ride" ){
+                    maxDistanceRide = (newArr[item][innerItem][grandInnerItem]["distance"]);
+                    maxDistanceRideID = newArr[item][innerItem][grandInnerItem]["id"].toString();
+                  }
+
+              // longest Run
+              if((newArr[item][innerItem][grandInnerItem]["distance"])>maxDistanceRun && (newArr[item][innerItem][grandInnerItem]["type"]).toString()=="Run" ){
+                    maxDistanceRun = (newArr[item][innerItem][grandInnerItem]["distance"]);
+                    maxDistanceRunID = newArr[item][innerItem][grandInnerItem]["id"].toString();
+                  }
+
             }
         }
     }
+
 }
-console.log(otherObj);
+console.log(maxDistanceRun);
+console.log(maxDistanceRide);
+console.log(totalDistance);
+console.log(PRs);
+console.log(totalElev);
+console.log(Rides);
+console.log(Runs);
+console.log(totalActivites);
+console.log(totalTime);
 var file = "data.json";
 jsonfile.writeFileSync(file, otherObj);

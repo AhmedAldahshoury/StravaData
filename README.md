@@ -42,3 +42,9 @@ We have some errors in the project that needs to be enhanced:
 
 The link for the external website for the interaction between the bubble chart and the geo map :
 https://beta.observablehq.com/@salman19/rides-or-runs
+
+Team
+======
+
+Ahmed Aldahshoury
+Salman Eldash

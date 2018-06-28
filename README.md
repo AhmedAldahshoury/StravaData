@@ -46,5 +46,5 @@ https://beta.observablehq.com/@salman19/rides-or-runs
 Team
 ======
 
-Ahmed Aldahshoury
+Ahmed Aldahshoury ,
 Salman Eldash

@@ -4,7 +4,7 @@
 // Version: 846
 // Runtime version: 1
 
-const m0 = {
+var m0 = {
   id: "4afee965d0dc7a4b@846",
   variables: [
     {

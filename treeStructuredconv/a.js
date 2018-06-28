@@ -1,4 +1,8 @@
+
+
 var jsonfile = require("jsonfile");
+
+
 let arr = [
     {
         resource_state: 2,
@@ -7195,11 +7199,14 @@ var Rides = 0;
 var totalActivites = 0;
 var totalTime = 0;
 
+
+
 for (obj of arr) {
     let date = new Date(obj["start_date"]);
     let year = date.getFullYear().toString();
     let month = monthNames[date.getMonth()];
     let day = date.getUTCDate().toString();
+
 
     if (!newArr[year]) {
         newArr[year] = {};
@@ -7226,6 +7233,11 @@ for (obj of arr) {
 
 let otherObj = { name: "years", children: [] };
 
+
+
+
+
+
 for (item in newArr) {
 
     otherObj.children.push({ name: item, children: [] });
@@ -7242,6 +7254,8 @@ for (item in newArr) {
             for (innerGrandInnerItem in newArr[item][innerItem][
                 grandInnerItem
             ]) {
+
+
 
               if(innerGrandInnerItem == "distance"){
                 otherObj.children[otherObj.children.length - 1].children[
@@ -7303,6 +7317,24 @@ for (item in newArr) {
                 });
               //  console.log(innerGrandInnerItem);
               }
+              if(innerGrandInnerItem== "id"){
+                otherObj.children[otherObj.children.length - 1].children[
+                    otherObj.children[otherObj.children.length - 1].children
+                        .length - 1
+                ].children[
+                    otherObj.children[otherObj.children.length - 1].children[
+                        otherObj.children[otherObj.children.length - 1].children
+                            .length - 1
+                    ].children.length - 1
+                ].children.push({
+                    name:(newArr[item][innerItem][grandInnerItem][
+                        innerGrandInnerItem]).toString(),
+                    size:
+                        0
+                });
+              //  console.log(innerGrandInnerItem);
+              }
+
 
 
               // longest Ride

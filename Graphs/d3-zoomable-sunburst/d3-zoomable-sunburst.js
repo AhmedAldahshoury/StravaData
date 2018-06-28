@@ -3,8 +3,8 @@
 // Author: Ahmed Aldahshoury (@ahmedaldahshoury)
 // Version: 407
 // Runtime version: 1
-
-const m0 = {
+var carName = 0;
+var m0 = {
   id: "e4be36954ab88b66@407",
   variables: [
     {
